@@ -1,0 +1,600 @@
+<!doctype html>
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#ef6d24"/>
+    <title>Welcome to Dine4Six - Home</title>
+    <meta name="description" content="">
+    <!-- <meta http-equiv="Cache-Control" content="public"> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="manifest" href="manifest.json" />
+    <script defer src="site.js"></script>
+    <script src="jsDelivr CDN: //cdn.jsdelivr.net/vivus/latest/vivus.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="js/vendor/html5-3.6-respond-1.4.2.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="home">
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+<div class="b-preloader animated yt-loader">
+    <div class="b-preloader__decor"></div>
+</div>
+<header class="b-header clearfix">
+    <a href="index.html" class="logo"> <img src="logo.svg" onerror="this.onerror=null; this.src='logo.png'"></a>
+    <div class="b-header__ctrl">
+        <div class="b-header__ctrl__item"><a href="Add-Place.html" class="btn btn--black"><i class="fa fa-plus-square"
+                                                                                             aria-hidden="true"></i><span>Submit your restaurant</span></a>
+        </div>
+        <div class="b-header__ctrl__item">
+            <a href="#" class="ab-item login jquery_popup"> <i class="fa fa-unlock-alt" aria-hidden="true"></i><span>Sign Up</span>
+            </a>
+        </div>
+        <div class="b-header__ctrl__item">
+            <form class="searchbox">
+                <input type="search" placeholder="Search......" name="search" class="searchbox-input"
+                       onkeyup="buttonUp()">
+                <button type="submit" class="searchbox-submit"><i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+                <span class="searchbox-icon"><i class="fa fa-search" aria-hidden="true"></i></span></form>
+        </div>
+    </div>
+    <!--.b-header__ctrl-->
+    <div class="b-nav-toggle closed"><img src="logo.svg" alt="logo" width="142" height="28"><i
+            class="menu-icon fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <nav class="b-nav fadein">
+        <ul>
+            <li class="menu-item-has-children"><a href="#"><i class="fa fa-mobile" aria-hidden="true"></i>Apps</a>
+                <ul>
+                    <li><a href="#">Coming Soon</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a class="jquery_popup_help" href="#"><i class=" fa fa-question-circle" aria-hidden="true"></i>Help</a>
+            </li>
+        </ul>
+    </nav>
+    <!--.b-nav-->
+</header>
+<!-- .b-header -->
+<div class="b-main-container" id="content">
+    <div class="b-promo lazy" data-src="img/home-bg.jpg">
+        <div class="b-placeholder"></div>
+        <div class="b-stars">
+            <div class="stars"></div>
+        </div>
+        <div class="overlay"></div>
+        <div class="b-promo__search container">
+            <center><img class="m--centered" src="logo-animate.svg"/></center>
+            <h1 class="b-promo__title">Meet. Mingle. Eat</h1>
+            <h6 class="b-promo__sub-title"></h6>
+
+        </div>
+        <div class="scroll_block"><img width="23" height="36" alt="Use your scrollwheel :)"
+                                       class="animated infinite bounce" src="img/scroll.png"></div>
+    </div>
+    <!-- .b-promo -->
+    <div class="b-events container">
+        <h2 class="b-cont-title">Upcoming events</h2>
+
+
+            <div class="b-events__item">
+                <div class="b-event col-md-4">
+                    <div class="b-event__img">
+                        <a href="Single-Event.html"><img width="370" height="245" class="b-event__img__img"
+                                                         src="img/src/upcoming-event-1.jpg" alt="Upcoming event 1">
+                        </a>
+                        <div class="b-sm-post__date">
+                            <div class="b-sm-post__month">Jul</div>
+                            <div class="b-sm-post__day">31st</div>
+                        </div>
+                        <a href="#" class="b-icon-like" data-toggle="tooltip" data-placement="left" title="Like"><i
+                                class="fa fa-heart" aria-hidden="true"></i></a>
+                        <div class="b-event__links">
+                            <div class="press--left"><a href="#" class="b-pop-place__links__item" data-toggle="tooltip"
+                                                        data-placement="right" title="Live music"><i class="fa fa-music"
+                                                                                                     aria-hidden="true"></i></a>
+                                <a href="#" class="b-pop-place__links__item" data-toggle="tooltip"
+                                   data-placement="right" title="Menu"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                <a href="#" class="b-pop-place__links__item" data-toggle="tooltip"
+                                   data-placement="right" title="Photo"><i class="fa fa-camera" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="press--right">R300 - R400</div>
+                        </div>
+                    </div>
+                    <div class="b-event__desc clearfix">
+                        <div class="press--left"><a href="Single-Event.html" class="b-event__name">Asoka Bar</a>
+                            <h5 class="b-event__cat">Restaurant & Bar</h5></div>
+                        <a href="#" class="btn btn--sm press--right noajax jquery_popup_2">Buy Ticket</a></div>
+
+                </div>
+            </div>
+            <div class="b-events__item">
+                <div class="b-event col-md-4">
+                    <div class="b-event__img">
+                        <a href="Single-Event.html"><img width="370" height="245" class="b-event__img__img"
+                                                         src="img/src/upcoming-event-1.jpg" alt="Upcoming event 1">
+                        </a>
+                        <div class="b-sm-post__date">
+                            <div class="b-sm-post__month">Jul</div>
+                            <div class="b-sm-post__day">31st</div>
+                        </div>
+                        <a href="#" class="b-icon-like" data-toggle="tooltip" data-placement="left" title="Like"><i
+                                class="fa fa-heart" aria-hidden="true"></i></a>
+                        <div class="b-event__links">
+                            <div class="press--left"><a href="#" class="b-pop-place__links__item" data-toggle="tooltip"
+                                                        data-placement="right" title="Live music"><i class="fa fa-music"
+                                                                                                     aria-hidden="true"></i></a>
+                                <a href="#" class="b-pop-place__links__item" data-toggle="tooltip"
+                                   data-placement="right" title="Menu"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                <a href="#" class="b-pop-place__links__item" data-toggle="tooltip"
+                                   data-placement="right" title="Photo"><i class="fa fa-camera" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="press--right">R300 - R400</div>
+                        </div>
+                    </div>
+                    <div class="b-event__desc clearfix">
+                        <div class="press--left"><a href="Single-Event.html" class="b-event__name">Asoka Bar</a>
+                            <h5 class="b-event__cat">Restaurant & Bar</h5></div>
+                        <a href="#" class="btn btn--sm press--right jquery_popup noajax">Buy Ticket</a></div>
+                </div>
+            </div>
+            <div class="b-events__item">
+                <div class="b-event col-md-4">
+                    <div class="b-event__img">
+                        <a href="Single-Event.html"><img width="370" height="245" class="b-event__img__img"
+                                                         src="img/src/upcoming-event-1.jpg" alt="Upcoming event 1">
+                        </a>
+                        <div class="b-sm-post__date">
+                            <div class="b-sm-post__month">Jul</div>
+                            <div class="b-sm-post__day">31st</div>
+                        </div>
+                        <a href="#" class="b-icon-like" data-toggle="tooltip" data-placement="left" title="Like"><i
+                                class="fa fa-heart" aria-hidden="true"></i></a>
+                        <div class="b-event__links">
+                            <div class="press--left"><a href="#" class="b-pop-place__links__item" data-toggle="tooltip"
+                                                        data-placement="right" title="Live music"><i class="fa fa-music"
+                                                                                                     aria-hidden="true"></i></a>
+                                <a href="#" class="b-pop-place__links__item" data-toggle="tooltip"
+                                   data-placement="right" title="Menu"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                <a href="#" class="b-pop-place__links__item" data-toggle="tooltip"
+                                   data-placement="right" title="Photo"><i class="fa fa-camera" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="press--right">R300 - R400</div>
+                        </div>
+                    </div>
+                    <div class="b-event__desc clearfix">
+                        <div class="press--left"><a href="Single-Event.html" class="b-event__name">Asoka Bar</a>
+                            <h5 class="b-event__cat">Restaurant & Bar</h5></div>
+                        <a href="#" class="btn btn--sm press--right jquery_popup noajax">Buy Ticket</a></div>
+                </div>
+            </div>
+            <div class="b-events__item">
+                <div class="b-event col-md-4">
+                    <div class="b-event__img">
+                        <a href="Single-Event.html"><img width="370" height="245" class="b-event__img__img"
+                                                         src="img/src/upcoming-event-2.jpg" alt="Upcoming event 2">
+                        </a>
+                        <div class="b-sm-post__date">
+                            <div class="b-sm-post__month">Aug</div>
+                            <div class="b-sm-post__day">30</div>
+                        </div>
+                        <a href="#" class="b-icon-like" data-toggle="tooltip" data-placement="left" title="Like"><i
+                                class="fa fa-heart" aria-hidden="true"></i></a>
+                        <div class="b-event__links">
+                            <div class="press--left"><a href="#" class="b-pop-place__links__item" data-toggle="tooltip"
+                                                        data-placement="right" title="Live music"><i class="fa fa-music"
+                                                                                                     aria-hidden="true"></i></a>
+                                <a href="#" class="b-pop-place__links__item" data-toggle="tooltip"
+                                   data-placement="right" title="Menu"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                <a href="#" class="b-pop-place__links__item" data-toggle="tooltip"
+                                   data-placement="right" title="Photo"><i class="fa fa-camera" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="press--right">R200 - R300</div>
+                        </div>
+                    </div>
+                    <div class="b-event__desc clearfix">
+                        <div class="press--left"><a href="Single-Event.html" class="b-event__name">Rick's Cafe</a>
+                            <h5 class="b-event__cat">Restaurant</h5></div>
+                        <a href="#" class="btn btn--sm press--right jquery_popup noajax">Buy Ticket</a></div>
+                </div>
+                <div class="b-event col-md-4">
+                    <div class="b-event__img">
+                        <a href="Single-Event.html"><img width="370" height="245" class="b-event__img__img"
+                                                         src="img/src/upcoming-event-2.jpg" alt="Upcoming event 2">
+                        </a>
+                        <div class="b-sm-post__date">
+                            <div class="b-sm-post__month">Aug</div>
+                            <div class="b-sm-post__day">30</div>
+                        </div>
+                        <a href="#" class="b-icon-like" data-toggle="tooltip" data-placement="left" title="Like"><i
+                                class="fa fa-heart" aria-hidden="true"></i></a>
+                        <div class="b-event__links">
+                            <div class="press--left"><a href="#" class="b-pop-place__links__item" data-toggle="tooltip"
+                                                        data-placement="right" title="Live music"><i class="fa fa-music"
+                                                                                                     aria-hidden="true"></i></a>
+                                <a href="#" class="b-pop-place__links__item" data-toggle="tooltip"
+                                   data-placement="right" title="Menu"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                <a href="#" class="b-pop-place__links__item" data-toggle="tooltip"
+                                   data-placement="right" title="Photo"><i class="fa fa-camera" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="press--right">R200 - R300</div>
+                        </div>
+                    </div>
+                    <div class="b-event__desc clearfix">
+                        <div class="press--left"><a href="Single-Event.html" class="b-event__name">Rick's Cafe</a>
+                            <h5 class="b-event__cat">Restaurant</h5></div>
+                        <a href="#" class="btn btn--sm press--right jquery_popup noajax">Buy Ticket</a></div>
+                </div>
+            </div>
+            <div class="b-events__item">
+                <div class="b-event col-md-4">
+                    <div class="b-event__img">
+                        <a href="Single-Event.html"><img width="370" height="245" class="b-event__img__img"
+                                                         src="img/src/upcoming-event-3.jpg" alt="Upcoming event 3">
+                        </a>
+                        <div class="b-sm-post__date">
+                            <div class="b-sm-post__month">Aug</div>
+                            <div class="b-sm-post__day">31</div>
+                        </div>
+                        <a href="#" class="b-icon-like" data-toggle="tooltip" data-placement="left" title="Like"><i
+                                class="fa fa-heart" aria-hidden="true"></i></a>
+                        <div class="b-event__links">
+                            <div class="press--left"><a href="#" class="b-event__links__item" data-toggle="tooltip"
+                                                        data-placement="right" title="Tooltip on bottom"><i
+                                    class="fa fa-music" aria-hidden="true"></i></a> <a href="#"
+                                                                                       class="b-event__links__item"
+                                                                                       data-toggle="tooltip"
+                                                                                       data-placement="right"
+                                                                                       title="Tooltip on bottom"><i
+                                    class="fa fa-book" aria-hidden="true"></i></a> <a href="#"
+                                                                                      class="b-event__links__item"
+                                                                                      data-toggle="tooltip"
+                                                                                      data-placement="right"
+                                                                                      title="Tooltip on bottom"><i
+                                    class="fa fa-camera" aria-hidden="true"></i></a></div>
+                            <div class="press--right">R200 - R300</div>
+                        </div>
+                    </div>
+                    <div class="b-event__desc clearfix">
+                        <div class="press--left"><a href="Single-Event.html" class="b-event__name">Tigers Milk</a>
+                            <h5 class="b-event__cat">Restaurant</h5></div>
+                        <a href="#" class="btn btn--sm press--right jquery_popup noajax">Buy Ticket</a></div>
+                </div>
+            </div>
+
+        <div class="hidden b-jquery-popup">
+            <div class="b-form-reg-popup">
+                <h2 class="b-form-reg-popup__title m--centered">Register Now</h2>
+                <div class="b-form__row clearfix">
+                    <a href="#" class="b-form-reg-popup__facebook press--left"><img width="206" height="58"
+                                                                                    src="img/facebook-link.jpg" alt="">
+                    </a>
+                    <a href="#" class="b-form-reg-popup__google press--right"><img width="206" height="58"
+                                                                                   src="img/google-link.jpg" alt="">
+                    </a>
+                </div>
+                <div class="b-form__row">
+                    <input type="text" placeholder="Your Name"></div>
+                <div class="b-form__row">
+                    <input type="text" placeholder="Email Address"></div>
+                <div class="b-form__row">
+                    <input type="text" placeholder="Phone Number"></div>
+                <div class="b-form__row">
+                    <select data-placeholder="Choose a City..." class="chosen-select-2" tabindex="2">
+                        <option value="Cape Town">Choose a Country...</option>
+                        <option value="Johannesburg">Johannesburg</option>
+                        <option value="Durban">Durban</option>
+                        <option value="East London">East London</option>
+
+                    </select>
+                </div>
+                <div class="b-form__row m--centered"><a href="#" class="btn">Register now</a></div>
+            </div>
+        </div>
+
+
+        <div class="hidden b-jquery-popup_help">
+            <div class="b-form-reg-popup">
+                <form id="contact_form" method="POST" action="mail.php">
+                    <div class="b-form__row">
+                        <input id="name" class="input" name="name" type="text" value="" placeholder="Your Name"
+                               size="30"/><br/>
+                    </div>
+                    <div class="b-form__row">
+                        <input id="email" class="input" name="email" type="text" value="" placeholder="Your Email"
+                               size="30"/><br/>
+                    </div>
+                    <div class="b-form__row">
+                        <textarea id="message" class="input" name="message" placeholder="Your Message" rows="7"
+                                  cols="30"></textarea><br/>
+                    </div>
+                    <div id="submit" name="submit" type="submit" value="Send" class="btn b-form__row m--centered">Send
+                        Message
+                    </div>
+                </form>
+
+
+            </div>
+        </div>
+
+
+        <div class="hidden b-jquery-popup_2">
+            <div class="b-form-reg-popup">
+                <div style="width:100%; text-align:left;">
+                    <iframe src="https://eventbrite.com/tickets-external?eid=36650681174&ref=etckt" frameborder="0"
+                            height="360" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5"
+                            scrolling="auto" allowtransparency="true"></iframe>
+                    <div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;">
+                        <a class="powered-by-eb" style="color: #ADB0B6; text-decoration: none;" target="_blank"
+                           href="http://www.eventbrite.com/">Powered by Eventbrite</a></div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="b-promo2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <h2 class="b-cont-title b-cont-title--white">What is Dine4Six?</h2>
+                    <p>We all lead busy lives and in the chaos we tend to get stuck in our comfort zone. Never straying
+                        too from our social circles and constantly attracting the same type of people. Dine4Six takes
+                        the apprehension and difficulty out of meeting new people. Dine4Six hosts events that allow you
+                        to meet new and interesting people over a casual dinner at some of your cities favourite
+                        restaurants events. Dine differently, Dine4Six.</p>
+                    <ul class="b-promo2__list">
+                        <li><i class="b-promo2__list__icon fmr fmr-icon-319"></i>
+                            <h4 class="b-promo2__list__title">Meet new people when travelling</h4>
+                            <p>Dine4Six lets you meet new people in new cities. If you are a solo traveller looking to
+                                meet new people along your adventure, Dine4Six will always be your travel companion.</p>
+                        </li>
+                        <li><i class="b-promo2__list__icon fmr fmr-icon-539"></i>
+                            <h4 class="b-promo2__list__title">Network on your business trips</h4>
+                            <p>Ever been on a business trip and wanted to try a new restaurant but didn't want to dine
+                                alone. Don't dine alone, Dine4Six.</p>
+                        </li>
+                        <li><i class="b-promo2__list__icon fmr fmr-icon-1426"></i>
+                            <h4 class="b-promo2__list__title">Expand your social cicles</h4>
+                            <p>You love you friends and your friends love you, but sometime you just need a change of
+                                pace and scenery. Dine4Six lets you dine with a diverse range of people who you would
+                                never normally meet. Why not try something new?</p>
+                        </li>
+                        <li><i class="b-promo2__list__icon fmr fmr-icon-346"></i>
+                            <h4 class="b-promo2__list__title">Access exclusive bookings</h4>
+                            <p>Ever wanted to book a table at that exclusive restaurant but the waiting list is weeks,
+                                or even months, long? We do our bookings long in advance, all you have to do is book a
+                                seat.</p>
+                        </li>
+                    </ul>
+                    <div class="row b-promo2__footer">
+                        <div class="col-md-4 col-md-offset-4 m--centered"><a href="#"
+                                                                             class="ab-item login jquery_popup_3 btn">Sign
+                            Up Now</a></div>
+
+
+                        <div class="hidden b-jquery-popup_3">
+                            <div class="b-form-reg-popup">
+                                <!-- Begin MailChimp Signup Form -->
+
+                                <style type="text/css">
+	#mc_embed_signup{background:#fff;clear:left; font:14px Philosopher; }
+
+                                </style>
+                                <div id="mc_embed_signup">
+                                    <form action="https://dine4six.us16.list-manage.com/subscribe/post?u=2cfd778662419a162363129af&amp;id=ce84b19b8b"
+                                          method="post" id="mc-embedded-subscribe-form"
+                                          name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                        <div id="mc_embed_signup_scroll">
+                                            <h2>Subscribe to our mailing list</h2>
+                                            <div class="indicates-required"><span class="asterisk">*</span> indicates
+                                                required
+                                            </div>
+                                            <div class="mc-field-group">
+                                                <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
+                                                </label>
+                                                <input type="email" value="" name="EMAIL" class="required email"
+                                                       id="mce-EMAIL">
+                                            </div>
+                                            <div id="mce-responses" class="clear">
+                                                <div class="response" id="mce-error-response"
+                                                     style="display:none"></div>
+                                                <div class="response" id="mce-success-response"
+                                                     style="display:none"></div>
+                                            </div>
+                                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input
+                                                    type="text" name="b_2cfd778662419a162363129af_ce84b19b8b"
+                                                    tabindex="-1" value=""></div>
+                                            <br/><br/>
+                                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe"
+                                                                      id="mc-embedded-subscribe" class="btn"></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <center><img style="top:50%;" width="100%" src="img/dinner_animated.svg"></center>
+                    <div class="row b-promo2__footer">
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- .b-promo2 -->
+<div class="b-people-say container">
+    <h2 class="b-cont-title">What people say</h2>
+    <div class="b-slider owl-carousel owl-carousel-2">
+        <div>
+            <div class="b-comment">
+                <div class="b-comment__avatar"><img width="90" height="90" class="b-comment__avatar__img"
+                                                    src="img/src/round-avatar-2.jpg" alt="avatar 2">
+                    <div class="b-comment__avatar__name">Asaf. B</div>
+                </div>
+                <div class="b-comment__cont">
+                    <p>"To be honest, I just didn't have anything better to do. Ended up having a wonderfully fun
+                        evening with colourful characters and now I can't wait for my next Dine4Six experience!"</p>
+                    <div class="b-comment__cont__footer clearfix">
+                        <div class="b-comment__cont__rating press--left">
+                            <div class="rating"><span class="gold">★</span><span class="gold">★</span><span
+                                    class="gold">★</span><span class="gold">★</span><span class="gold">★</span></div>
+                            (5.0)
+                        </div>
+                        <div class="press--right">04.22.2017</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="b-comment">
+                <div class="b-comment__avatar"><img width="90" height="90" class="b-comment__avatar__img"
+                                                    src="img/src/round-avatar-1.jpg" alt="avatar 1">
+                    <div class="b-comment__avatar__name">Roxann Lautenberg</div>
+                </div>
+                <div class="b-comment__cont">
+                    <p>“For foreigners it is a very cool concept because you can meet people from different cultures and
+                        different countries”</p>
+                    <div class="b-comment__cont__footer clearfix">
+                        <div class="b-comment__cont__rating press--left">
+                            <div class="rating"><span class="gold">★</span><span class="gold">★</span><span
+                                    class="gold">★</span><span class="gold">★</span><span class="gold">★</span></div>
+                            (5.0)
+                        </div>
+                        <div class="press--right">04.16.2017</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="b-comment">
+                <div class="b-comment__avatar"><img width="90" height="90" class="b-comment__avatar__img"
+                                                    src="img/src/round-avatar-1.jpg" alt="avatar 1">
+                    <div class="b-comment__avatar__name">Farran Campbell</div>
+                </div>
+                <div class="b-comment__cont">
+                    <p>"Dine4Six really appeals to my spontaneous side- I'm often keen on trying out unfamiliar, trendy
+                        eateries and I'm totally game to meet new people with the same goal!"</p>
+                    <div class="b-comment__cont__footer clearfix">
+                        <div class="b-comment__cont__rating press--left">
+                            <div class="rating"><span class="gold">★</span><span class="gold">★</span><span
+                                    class="gold">★</span><span class="gold">★</span><span class="gold">★</span></div>
+                            (5.0)
+                        </div>
+                        <div class="press--right">04.16.2017</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- .row -->
+</div>
+
+<!-- .b-latest-post -->
+<div class="b-promo3 lazy" data-src="img/src/banner-8.jpg">
+    <div class="b-placeholder"
+         style="background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAKAAoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDyNbqB7c/KQ3UfSoDqFoDgq+R15rMjZtoG44x61Vq+Zk8qP//Z) no-repeat center top; background-size: cover;opacity:9.2;"></div>
+    <div class="container">
+        <div class="row">
+            <div class="b-promo3__cont col-md-6 col-sm-12 col-xs-12">
+                <h2 class="b-cont-title b-cont-title--white">Take Dine4Six with you!</h2>
+                <p class="b-promo3__descr">We are working tirelessly to bring this experience to your pocket! Keep up to
+                    date with us on Social Media and sign up to our mailing list to be the first to get it!</p>
+                <a href="#" class="b-google-store"></a>
+                <a href="#" class="b-apple-store"></a>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <center><img style="margin-top:40px;" width="50%" src="img/iphone_animated.svg"></center>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- .b-promo3 -->
+<div id="gmap_canvas"></div>
+</div>
+<!-- .b-main-container -->
+<div class="b-footer">
+    <div class="b-footer__info">
+        <div class="container clearfix">
+            <div class="row">
+                <div class="b-footer__text col-md-3 col-sm-12"><a href="index.html" class="b-footer__logo">Dine4Six</a>
+                    <p>Don't talk to strangers, dine with them.</p>
+                    <div class="b-footer__copyright">© 2017 All Rights Reserved</div>
+                </div>
+
+                <!-- .row -->
+            </div>
+            <!-- .container -->
+            <div class="shared">
+                <div class="container clearfix">
+                    <div class="b-soc"><a href="www.facebook.com/dine4six" class="soc-item"><i class="fa fa-facebook"
+                                                                                               aria-hidden="true"></i></a>
+                        <a href="www.twitter.com/dine4six" class="soc-item"><i class="fa fa-twitter"
+                                                                               aria-hidden="true"></i></a> <a
+                                href="google.com/frontierlab" class="soc-item"><i class="fa fa-google-plus"
+                                                                                  aria-hidden="true"></i></a> <a
+                                href="#" class="soc-item"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+                    <!--.b-soc-->
+                    <div class="stores">
+                        <a href="#" class="stores-black-gp"><img src="img/icon-googleplay.png" alt="">
+                        </a>
+                        <a href="#" class="stores-black-apps"><img src="img/apple-ic.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--.shared-->
+        </div>
+        <!--.b-footer__info-->
+    </div>
+    <!--.b-footer-->
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAI_iMtLfLxggW38M7mrcv2-Fq2NKf8ab4"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/dropzone.js"></script>
+    <script src="js/chosen.jquery.min.js"></script>
+    <script src="js/ion.rangeSlider.min.js"></script>
+    <script src="js/jquery.popup.min.js"></script>
+    <script src="js/jssor.slider.mini.js"></script>
+    <script src="js/lightcase.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/tabs.js"></script>
+    <script src="js/tooltip.js"></script>
+    <script src="js/compiled_lib.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/jquery.custom-scrollbar.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/sw.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+        new Vivus('my-svg', {duration: 200}, myCallback);
+
+    </script>
+
+</body>
+
+</html>
